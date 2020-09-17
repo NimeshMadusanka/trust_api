@@ -1,2 +1,1 @@
-# trust_api
-research project trust prediction
+# Heroku-Demo
