@@ -13,14 +13,14 @@
 
 <body>
  <div class="login">
-	<h1>Predict Salary Analysis</h1>
+	<h1>Farmer Recommendation</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="{{ url_for('predict')}}"method="post">
-    	<input type="text" name="tags" placeholder="tag count" required="required" />
-        <input type="text" name="ratings" placeholder="rating count" required="required" />
-	<input type="text" name="likes" placeholder="likes count" required="required" />
-	<input type="text" name="count" placeholder="conut deatils" required="required" />
+    	<input type="text" name="tags" placeholder="share_count" required="required" />
+        <input type="text" name="ratings" placeholder="near_location" required="required" />
+	<input type="text" name="likes" placeholder="category" required="required" />
+	<input type="text" name="count" placeholder="like_count" required="required" />
 
         <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
     </form>
